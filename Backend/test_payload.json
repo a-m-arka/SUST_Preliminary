@@ -1,0 +1,27 @@
+{
+  "ticket_id": "TKT-20250615-7890",
+  "complaint": "I was charged twice for my electricity bill payment of 1500 BDT. I only intended to pay once but my account was debited twice on June 14th.",
+  "language": "en",
+  "channel": "app",
+  "user_type": "premium",
+  "campaign_context": null,
+  "transaction_history": [
+    {
+      "transaction_id": "TXN-001",
+      "timestamp": "2025-06-14T10:30:00Z",
+      "type": "debit",
+      "amount": 1500.00,
+      "counterparty": "DPDC Electricity",
+      "status": "success"
+    },
+    {
+      "transaction_id": "TXN-002",
+      "timestamp": "2025-06-14T10:30:05Z",
+      "type": "debit",
+      "amount": 1500.00,
+      "counterparty": "DPDC Electricity",
+      "status": "success"
+    }
+  ],
+  "metadata": {"app_version": "3.2.1", "device": "Android"}
+}
